@@ -1,0 +1,66 @@
+body{
+    background-image: url("../img/lixo-praia.jpg");
+    background-size: cover;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.center{
+    background-color: #000000;
+    opacity: 70%;
+    border-radius: 12px;
+    padding: 5vh;
+    max-width: 80vw;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+h1{
+    font-family: "Futura";
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+
+button{
+    border-color: #0e90ad;
+    border-radius: 6px;
+    background-color: transparent;
+    font-family: "Futura";
+    font-size: 30px;
+    color: #0e90ad;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.position {
+    display: flex;
+}
+
+button:hover{
+    background-color: #0e90ad;
+    color: #000000;
+}
+
+footer {
+    background-color: #023859;
+    color: #ffffff;
+    font-family: "Futura";
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 900px){
+    h1{
+        font-size: calc(5em - 1vh);
+    }
+}

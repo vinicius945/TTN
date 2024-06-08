@@ -1,0 +1,7 @@
+O aparecimento de lixo na praia é inenitável, pois não conseguimos conscientizar a todos.
+
+Nosso app consiste em, aplicando em praias uma gincana que reforça a ideia de reciclagem, como separá-la e, para que isso seja eficiente, uma recompensa será dada o final.
+As recompensas serão dadas em postos da praia feitas com lixo reciclado, em troca de um lixo coletado da praia, fazendo então com que o lixo acumulado acabe cada vez mais.
+
+Como se trata de um fluxo, passando entre telas, não faz muito sentido ter um painel de navegação. Porém, um botão de reinicio foi implantado.
+
